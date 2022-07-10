@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu{
+    @apply bg-orange-500 p-3 flex space-x-5;
+    &__item{
+        @apply block hover:bg-white py-3 px-5;
+    }
+}
