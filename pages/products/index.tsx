@@ -12,6 +12,8 @@ const Products = ({products}: productsProps) => {
   if(!products) return null
   return (
     <div>{products.map(item => {
+    <h1>Hihi</h1>;
+
     return  <p key={item.id}>{item.name}</p>
     })}</div>
   )
