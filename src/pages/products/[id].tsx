@@ -63,6 +63,6 @@ export const getServerSideProps: GetServerSideProps = async(context: GetServerSi
 export default ProductDetail;
 // Static Site Generation => Render ra cac file html co san
 // Server Side rendering => server trả về dữ liệu khi user truy cap
-// Client Side rendering => giống react
+// Client Side rendering => giống react => sd
 // Icremental Static Generation => 
 // cache dữ liệu, khi truy cập vào 1 page không có thì sẽ chờ thời gian tạo page mới
